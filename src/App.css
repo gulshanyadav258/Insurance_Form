@@ -1,161 +1,150 @@
 .App {
-  background-color: #F2F0ED;
-  width : 100%;
-  height : 100vh;
-
+  background-color: #f2f0ed;
+  width: 100%;
+  height: 100vh;
 }
-.RootScreen{
-  width : 100%;
+.RootScreen {
+  width: 100%;
   padding-left: 160px;
   padding-right: 160px;
   display: flex;
-flex-direction: row;
-align-items: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
 
-gap: 32px;
+  gap: 32px;
 }
 
-.Footer{
+.Footer {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   padding: 0px;
-  
+
   position: absolute;
   height: 95px;
   left: 0px;
   right: 0px;
   bottom: 0px;
-  
+
   /* White */
-  
-  background: #FFFFFF;
+
+  background: #ffffff;
   box-shadow: 0px -4px 8px rgba(45, 61, 84, 0.06);
 }
-.NextButton{
+.NextButton {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 12px 20px;
   gap: 8px;
-  
+
   width: 320px;
   height: 47px;
-  
+
   border-radius: 6px;
-  
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
 }
-.BasicDetailsRoot{
-width: 100%;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 40px;
-}
-#PlanTitle{
-
-/* height: 38px; */
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 120%;
-/* or 38px */
-
-
-/* Gray/800 */
-
-color: #182639;
-
-}
-#Info{
-
-/* height: 84px; */
-/* P - Regular - 20px */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 140%;
-/* or 28px */
-
-
-/* Gray/600 */
-
-color: #2D3D54;
-
-
-}
-#FormPreviewRoot{
-  display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-
-width: 352px;
-
-/* White */
-
-background: #FFFFFF;
-border-radius: 10px;
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
-}
-
-.PlanDetails{
-
-}
-.BasicDetails{
-  padding-top: 20px;
-}
-.ProgressBar{
+.BasicDetailsRoot {
   width: 100%;
   display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 12px;
-
-height: 8px;
-
-padding-top: 80px;
-padding-bottom: 80px;
-
-/* Secondary/100 */
-
-background: #F2F0ED;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
 }
-.ProgressActiveBar{
-  height: 8px;
-  background: #E06358;
-transform: rotate(-0.02deg);
+#PlanTitle {
+  /* height: 38px; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  /* or 38px */
 
-/* Inside auto layout */
+  /* Gray/800 */
 
-flex: none;
-order: 0;
-flex-grow: 1;
+  color: #182639;
 }
-.ProgressInActiveBar{
-  height: 8px;
-  background: #CCC4BA;
-  transform: rotate(-0.02deg);
-  
+#Info {
+  /* height: 84px; */
+  /* P - Regular - 20px */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  /* or 28px */
+
+  /* Gray/600 */
+
+  color: #2d3d54;
+}
+#FormPreviewRoot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  width: 352px;
+
+  /* White */
+
+  background: #ffffff;
+  border-radius: 10px;
+
   /* Inside auto layout */
-  
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.BasicDetails {
+  padding-top: 20px;
+}
+.ProgressBar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  height: 8px;
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  /* Secondary/100 */
+
+  background: #f2f0ed;
+}
+.ProgressActiveBar {
+  height: 8px;
+  background: #e06358;
+  transform: rotate(-0.02deg);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.ProgressInActiveBar {
+  height: 8px;
+  background: #ccc4ba;
+  transform: rotate(-0.02deg);
+
+  /* Inside auto layout */
+
   flex: none;
   order: 1;
   flex-grow: 1;
@@ -163,4 +152,3 @@ flex-grow: 1;
 .App-link {
   color: #61dafb;
 }
-
