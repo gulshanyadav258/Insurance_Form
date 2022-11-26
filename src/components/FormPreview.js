@@ -58,7 +58,6 @@ function FormPreview(props) {
   const itemDetailsRoot = {
     width: "100%",
     display: "flex",
-    wordBreak: "break-word",
     justifyContent: "space-between",
   };
 
