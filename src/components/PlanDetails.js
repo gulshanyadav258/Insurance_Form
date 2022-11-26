@@ -129,24 +129,6 @@ function PlanDetails(props) {
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
-              {/* <Form.Select
-                aria-label="Default select example"
-                value={formData.planType}
-                onChange={(e) =>
-                  setFormData({ ...formData, planType: e.target.value })
-                }
-              >
-                <option value={""}>
-                  <div style={selectPlanLabel}>Select your plan</div>
-                </option>
-
-           
-                <option value="self"> self</option>
-
-                <option value="parent">parent</option>
-        
-                <option value="self + parent">self + parent</option>
-              </Form.Select> */}
             </div>
           </Accordion.Body>
         </Accordion.Item>

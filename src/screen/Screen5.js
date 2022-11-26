@@ -78,7 +78,6 @@ function Screen5(props) {
     <div style={div535Styles}>
       <div style={div531Styles}>
         <div style={screenTitle}>Congratulations!</div>
-        {/* dynamicly changed to "Congratulations!" */}
       </div>
       <div style={ConfirmPayment}>
         <div style={paymentItems}>

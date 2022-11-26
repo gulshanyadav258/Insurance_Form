@@ -53,6 +53,7 @@
 }
 .BasicDetailsRoot {
   width: 100%;
+  overflow: scroll;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
