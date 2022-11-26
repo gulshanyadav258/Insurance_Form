@@ -186,7 +186,7 @@ function Screen2(props) {
                         Select the deductible amount for the policy (or policies) below.
                     </div>
                     <div style={AmountDetail}>
-                        <a href="https://www.healthcare.gov/glossary/deductible/" target={"_blank"}> what is a deductible? </a>
+                        <a href="https://www.healthcare.gov/glossary/deductible/" target={"_blank"} rel="noreferrer"> what is a deductible? </a>
                     </div>
                 </div>
             </div>
