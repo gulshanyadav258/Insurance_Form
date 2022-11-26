@@ -55,7 +55,6 @@ function Screen1(props) {
     flexDirection: "column",
     alignItems: "flex-start",
     padding: "0px",
-    gap: "8px",
     flex: "none",
     order: "0",
     flexGrow: "0",
